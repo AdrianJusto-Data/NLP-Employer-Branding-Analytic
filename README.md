@@ -76,7 +76,8 @@ Pipeline de NLP en 5 pasos, todo ejecutable en CPU:
 **Motivo de salida #1 de DB:** Burocracia y política interna (26.8% de los cons de ex-empleados).
 
 ## 📂 Estructura del repositorio
-NPL_Diagnóstico de Marca Empleadora/
+```text
+NLP_Diagnóstico de Marca Empleadora/
 │
 ├── .gitignore
 ├── README.md
@@ -100,6 +101,7 @@ NPL_Diagnóstico de Marca Empleadora/
 │   └── tables/                                 # 7 tablas CSV
 └── presentation/
     └── Diagnostico_Marca_Empleadora.pptx
+```
 
 ## 🛠️ Herramientas
 
@@ -109,7 +111,7 @@ Python · pandas · Hugging Face Transformers · BERTopic · sentence-transforme
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/<tu-usuario>/NPL-Diagnostico-Marca-Empleadora.git
+git clone https://github.com/<tu-usuario>/NLP-Diagnostico-Marca-Empleadora.git
 cd NPL-Diagnostico-Marca-Empleadora
 
 # 2. Crear entorno virtual
