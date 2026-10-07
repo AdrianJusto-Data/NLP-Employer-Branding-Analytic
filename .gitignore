@@ -1,0 +1,30 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Datos pesados
+data/raw/*.csv
+data/raw/*.parquet
+*.parquet
+*.csv.gz
+
+
+# Outputs volátiles
+outputs/models/
+outputs/reports/*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
